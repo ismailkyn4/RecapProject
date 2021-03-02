@@ -6,7 +6,7 @@ using System.Text;
 namespace Business.Constants
 {
     public static class Messages
-    { 
+    {
 
         public static string CarNameInvalid = "Car name or daily price is invalid";
         public static string CarAdded = "Car successfully added";
@@ -38,8 +38,8 @@ namespace Business.Constants
         public static string UserDeleted = "User successfully deleted";
         public static string UserUpdated = "User successfully updated";
 
-        public static string MaintenanceTime="System is under maintenance !!";
-        public static string CarsListed ="Cars listed";
+        public static string MaintenanceTime = "System is under maintenance !!";
+        public static string CarsListed = "Cars listed";
 
         public static string ReturnedRental = "The Car you rented has been returned";
         public static string ErrorReturnRental = "The Car you rented was not returned ";
@@ -51,7 +51,13 @@ namespace Business.Constants
         public static string RentNotUpdated = "Rent not Updated";
         public static string ReturnedCar = "Car successfully returned";
 
-        public static string EmailInvalid= "Email must contain '@' ";
+        public static string EmailInvalid = "Email must contain '@' ";
         public static string PasswordInvalid = "Password must be at least 6 characters";
+
+        public static string CarCountOfBrandError = "Can be a maximum of 10 car models";
+        public static string BrandNameAlreadyExits = "There is already such a brand name";
+        public static string ColorNameAlreadyExits = "There is already such a color name";
+        public static string BrandLimitExceded = "Number of brands exceeded";
+        public static string ImageLimitError = "There can be up to 5 images";
     }
 }
