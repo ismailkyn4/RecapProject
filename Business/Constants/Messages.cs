@@ -59,5 +59,9 @@ namespace Business.Constants
         public static string ColorNameAlreadyExits = "There is already such a color name";
         public static string BrandLimitExceded = "Number of brands exceeded";
         public static string ImageLimitError = "There can be up to 5 images";
+
+        public static string CarImageAdded="Car Image Added";
+        public static string CarImageDeleted="Car Image Deleted";
+        public static string CarImageUpdated = "Car Image Updated";
     }
 }
